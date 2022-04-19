@@ -1,7 +1,4 @@
 # Cryptocurrencies
-### An analysis using unsupervised Machine Learning algorithm to discover unknown patterns.
-
-![bannerimage](https://github.com/amylio/Cryptocurrencies/blob/main/Resources/Images/BannerImage.jpeg)
 
 ## Overview
 
