@@ -13,19 +13,20 @@ To successfully analyze the data, the below aspects are used to provide effectiv
 
 ## Results
 
-The original dataset contained 1,252 entries, however only 1,144 cryptocurrencies were currently trading. Null values were also removed from the dataset resulting in a total of 532 tradable cryptocurrencies.
+The dataset originally contains 1,252 entries, however only 1,144 of those cryptocurrencies are current trading. The dataset was condensed further by removing any rows with null values, resulting in a total of 532 tradable cryptocurrencies to reference.
 
-![Crypto Table](Resources/Images/crypto-table.jpg)
+![Crypto Table](Resources/Images/crypto-table.png)
 
-The **Elbow Curve** method showed the slope at 4. This is the number of clusters that was used for the `KMeans` algorithm.
+Using the `KMeans` algorithm, The Elbow Curve method shows the k value (the slope or number of clusters) at 4 with an inertia of 533.292.
 
-![Elbow Curve](Resources/Images/elbow-curve.jpg)
+![Elbow Curve](Resources/Images/elbow-curve.png)
 
 The clusters are plotted in a 3D scatter plot for visualization.
 
-![3D Graph](Resources/Images/3d-graph.jpg)
+![3D Graph](Resources/Images/3d-scatter-plot.png)
 
 ## Resources
 * Dataset from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
-* Software: Python 3.7.9, Anaconda 4.9.2 and Jupyter Notebooks 6.1.4
+* Language: Python
+* Tools: Jupyter Notebook
 * Libraries: `Scikit-learn`, `Plotly`, `hvPlot`, `Pandas`
