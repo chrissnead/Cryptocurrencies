@@ -26,6 +26,6 @@ The clusters are plotted in a 3D scatter plot for visualization.
 
 ## Resources
 - Dataset from [CryptoCompare](https://min-api.cryptocompare.com/data/all/coinlist)
-- Language: Python
+- Language(s): Python
 - Tools: Jupyter Notebook
 - Libraries: Pandas, Scikit-learn, Plotly, hvPlot
